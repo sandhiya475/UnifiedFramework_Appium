@@ -16,7 +16,7 @@ public class BaseClass {
 
     public AppiumDriver driver;
     public AppiumDriverLocalService service;
-    public PropertiesFileUtility putil=new PropertiesFileUtility();
+    PropertiesFileUtility putil=new PropertiesFileUtility();
 
     @BeforeSuite
     public void startServer() {
